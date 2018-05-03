@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>ClockIn</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" rel="stylesheet" href="clockIn.css"/>
+        <link type="text/css" rel="stylesheet" href="clockinandroid.css"/>
+    </head>
+    <body>
+        <div id="top-navbar">
+            <button id="back" onclick="displayLastPage">Back</button>
+            Clock In
+            <button id="settings" onclick="getToSettings">Settings</button>
+        </div>
+        
+        <div id="container">  
+            
+        <div id="qrCode"></div>
+        
+        <p id="displayDateTime">Tues 1st May 2018 10:26am</p>
+        
+            
+         
+        
+       
+         <button id="nextClass" onclick="getToDirections"> 
+             Human Computer Interaction <br> 
+                 Today at <br>
+                 M 517 <br> 
+                 in 30 Minutes <br> <br>
+                 Click for directions
+             
+         </button>
+          
+        </div>
+        <div id="bottom-navbar">
+            <button id="home" onclick="goHome()">Home</button>
+            <button id="QrCodePage" onclick="displayQrCodePage">QR Code</button>
+            <button id="profile" onclick="getProfile">Profile</button>
+        </div>
+    </body>
+</html>
