@@ -75,8 +75,9 @@ button{
     padding: 5px;
 }
 
-#qrCode{
-    background-color: red;
+/*#qrCode{
+    
+   
     position: relative;
     height: 320px;
     width: 90%;
@@ -84,7 +85,7 @@ button{
     margin: 15px auto;
     padding: 0px 10px;
     
-}
+}*/
 
 #nextClass{
     position: relative;
@@ -93,4 +94,14 @@ button{
     padding: 10px 0px;
    margin: 0px 15px; 
      
+}
+
+
+#QRCodeImg{
+    position: relative;
+    height: 320px;
+    width: 90%;
+    max-width: 320px; 
+    margin: 15px auto;
+    padding: 0px 10px;
 }

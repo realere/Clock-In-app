@@ -28,3 +28,8 @@ body{
     color: black; 
     box-shadow: darkgray 3px 3px 5px;
 }
+
+
+#qrCode{
+    background-image: url('QRCode.png') ;
+}
