@@ -12,6 +12,17 @@ body{
     font-size: 16pt ;
 }
 
+
+#container{
+  position: absolute;
+  top: 60px;
+  left: 0px;
+  width: 100%;
+  overflow: visible;
+  
+}
+
+
 #top-navbar{
     width: 100%;
     padding: 20px 0px;
@@ -34,23 +45,23 @@ body{
     left: 0px; 
     z-index: 10;
 }
-#back{
+#back-button{
     float: left;
 }
 
-#settings{
+#settings-button{
     float: right;
 }
 
-#home{
+#home-button{
     float: left;
 }
 
-#qrCode{
+#qrCode-button{
     float: none;
 }
 
-#profile{
+#profile-button{
     float: right;
 }
 
@@ -61,17 +72,14 @@ button{
 }
 
 
-#container{
-  position: absolute;
-  top: 60px;
-  left: 0px;
-  width: 100%;
-}
+
 
 #displayDateTime{
     position: relative;
     width: 90%;
-    margin: 10px auto;
+    margin-left: 15px;
+    margin-right: 20px;
+   /* margin: 10px auto; */
     padding: 5px;
 }
 
@@ -99,9 +107,12 @@ button{
 
 #QRCodeImg{
     position: relative;
-    height: 320px;
-    width: 90%;
-    max-width: 320px; 
-    margin: 15px auto;
-    padding: 0px 10px;
+    width: 200px;
+    height: auto; 
+    margin-left: 80px;
+    margin-top: 40px;
+    margin-right: 10px;
+    margin-bottom: 3px;
+    padding: 10px 10px;
+  
 }
