@@ -22,7 +22,7 @@ body{
   
 }
 
-
+/* Nav bar styles here*/
 #top-navbar{
     width: 100%;
     padding: 20px 0px;
@@ -45,6 +45,11 @@ body{
     left: 0px; 
     z-index: 10;
 }
+
+/*nav bar style ends here*/
+
+
+/*Buttons style stats here*/
 #back-button{
     float: left;
 }
@@ -70,8 +75,14 @@ button{
     margin: 0px 15px;
     font-size: large;
 }
+#gotIt{
+    box-shadow: darkgray 5px 3px 5px;
+}
+
+/*button style ends here*/
 
 
+/*index page style starts here */
 
 #QRCodeImg{
     position: relative;
@@ -114,8 +125,14 @@ button{
     margin: 0px 15px; 
      
 }
+/*Index page style ends here*/
 
 
+
+
+
+
+/*Home page style starts here*/
 
 .homepage-button{
     
@@ -157,3 +174,42 @@ button{
    
     
 }
+
+
+/*Home page style ends here*/
+
+
+
+
+/*direction page style sarts here*/
+#instructions{
+    position: relative;
+    width: 90%;
+    margin: 30px auto;
+    padding: 5px;
+    
+}
+
+#map {
+   
+    position: relative;
+    height: 320px;
+    width: 90%;
+    max-width: 320px;
+    margin: 15px auto;
+    padding: 0px 10px;
+   visibility: hidden;
+}
+
+#directions{
+    
+    position: relative;
+    height: auto;
+    width: 90%;
+    max-width: 320px;
+    margin: 15px auto;
+    padding: 10px 10px;
+    visibility: hidden;
+}
+
+/*direction page ends here*/
