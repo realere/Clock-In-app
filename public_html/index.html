@@ -14,9 +14,11 @@ and open the template in the editor.
     </head>
     <body>
         <div id="top-navbar">
-            <button id="back-button" onclick="displayLastPage">Back</button>
+            <button class="navButtonImg" id="back-button" onclick="displayLastPage">
+                Back
+              </button>  
             Clock In
-            <button id="settings-button" onclick="getToSettings">Settings</button>
+            <button class="navButtonImg" id="settings-button" onclick="getToSettings">Settings</button>
         </div>
         
         <div id="container">  
@@ -35,16 +37,18 @@ and open the template in the editor.
                  Today at <br>
                  M 517 <br> 
                  in 30 Minutes <br> <br>
-             
                  Click for directions
              
          </button>
           
         </div>
         <div id="bottom-navbar">
-            <button id="home-button" onclick="goHome()">Home</button>
-            <button id="QrCodePage-button" onclick="displayQrCodePage">QR Code</button>
-            <button id="profile-button" onclick="getProfile">Profile</button>
+            <button class="navButtonImg" id="home-button" onclick="goHome()">
+                Home
+<!--                <img class="navButtonImg" id="home-buttonImg" alt="Home button" src="Houseicon.png" >-->
+            </button>
+            <button class="navButtonImg" id="QrCodePage-button" onclick="displayQrCodePage">QR Code</button>
+            <button class="navButtonImg" id="profile-button" onclick="getProfile">Profile</button>
         </div>
     </body>
 </html>

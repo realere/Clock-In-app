@@ -28,3 +28,38 @@ body{
     color: black; 
     box-shadow: darkgray 3px 3px 5px;
 }
+
+#displayDateTime{
+    border-radius: 8px;
+    color: #2196f3;
+    box-shadow: darkgrey 3px 3px 5px;
+    border: 1px black solid;
+   
+    
+}
+#nextClass{
+    border: 1px black solid;
+    background-color: #2196f3 ;
+    box-shadow: darkgray 3px 3px 5px;
+    color: white;
+    border-radius: 8px;
+}
+
+.homepage-button{
+    background-color: red;
+    width: 328px;
+    border: 1px black solid;
+    background-color: #2196f3 ;
+    box-shadow: darkgray 3px 3px 5px;
+    color: white;
+}
+
+
+#instructions, #map, #directions {
+    box-shadow: darkgray 3px 3px 5px;
+    border: 1px black solid;
+    border-radius: 10px;
+    background-color: white;
+    border: 1px #dddddd solid;
+}
+
