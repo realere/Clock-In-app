@@ -42,3 +42,14 @@ body{
     color: white;
     border-radius: 8px;
 }
+
+.homepage-button{
+    background-color: red;
+    width: 328px;
+    border: 1px black solid;
+    background-color: #2196f3 ;
+    box-shadow: darkgray 3px 3px 5px;
+    color: white;
+}
+
+

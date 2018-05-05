@@ -6,11 +6,46 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>ClockIn</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" rel="stylesheet" href="clockIn.css"/>
+        <link type="text/css" rel="stylesheet" href="clockinandroid.css"/>
     </head>
     <body>
-        <div>TODO write content</div>
+        <div id="top-navbar">
+            <button id="back-button" onclick="displayLastPage">Back</button>
+            Clock In
+            <button id="settings-button" onclick="getToSettings">Settings</button>
+        </div>
+        
+        <div id="container">  
+            <div>
+            <button class="homepage-button"  id="viewNextClass-button"  onclick="viewnextclass"> 
+            
+             View Next Class
+         </button>
+            
+            </div>
+            <div>
+        <button class="homepage-button" id="ViewCourses-button" onclick="ViewCourses"> 
+            View Courses
+             
+         </button>
+       
+          </div>
+            <div>
+         <button class="homepage-button" id="viewTimetable-button" onclick="viewTimetable"> 
+            
+             View Timetable
+             
+         </button>
+          </div>
+         </div>
+        <div id="bottom-navbar">
+            <button id="home-button" onclick="goHome()">Home</button>
+            <button id="QrCodePage-button" onclick="displayQrCodePage">QR Code</button>
+            <button id="profile-button" onclick="getProfile">Profile</button>
+        </div>
     </body>
 </html>

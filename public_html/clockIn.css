@@ -73,6 +73,17 @@ button{
 
 
 
+#QRCodeImg{
+    position: relative;
+    width: 200px;
+    height: auto; 
+    margin-left: 80px;
+    margin-top: 40px;
+    margin-right: 10px;
+    margin-bottom: 3px;
+    padding: 10px 10px;
+  
+}
 
 #displayDateTime{
     position: relative;
@@ -98,21 +109,47 @@ button{
 #nextClass{
     position: relative;
     width: 90%;
-    margin: 10px auto; 
+   /* margin: 10px auto;*/ 
     padding: 10px 0px;
-   margin: 0px 15px; 
+    margin: 0px 15px; 
      
 }
 
 
-#QRCodeImg{
+
+.homepage-button{
+    
     position: relative;
-    width: 200px;
-    height: auto; 
+    height: 180px;
+    width:  90%;
+    border-radius: 8px;
     margin-left: 80px;
     margin-top: 40px;
     margin-right: 10px;
     margin-bottom: 3px;
-    padding: 10px 10px;
+/*    padding: 10px 10px;*/
   
+}
+
+
+#ViewCourses-button{
+    position: relative;
+    width: 90%;
+    padding: 10px 0px;
+   
+}
+
+#viewNextClass-button{
+    position: relative;
+    width: 90%; 
+    padding: 10px 0px;
+    
+}
+
+#viewTimetable-button{
+    position: relative;
+    width: 90%;
+    padding: 10px 0px;
+   
+    
 }
