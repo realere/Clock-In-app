@@ -11,60 +11,64 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link type="text/css" rel="stylesheet" href="clockIn.css"/>
         <link type="text/css" rel="stylesheet" href="clockinandroid.css"/>
+        <script type="text/javascript" src="clockin.js" defer >  </script>
+        <script type="text/javascript" src="cordova.js"></script>
+        
     </head>
     <body>
         <div id="top-navbar">
             <button class="navButtonImg" id="back-button" onclick="displayLastPage">
                 Back
-              </button>  
+            </button>  
             Clock In
-            <button class="navButtonImg" id="settings-button" onclick="getToSettings">Settings</button>
+            <button class="navButtonImg" id="settings-button" onclick="getToSettings">
+                Settings
+            </button>
         </div>
         
         <div id="container">  
             
             <div id="qrCode">
-         
+                
                 <img id="QRCodeImg" alt="QR Code" src="QRCode.png"    >
-
+                
             </div>
-       
             
-       <p id="displayDateTime"></p>
-     
-<!--  format for date  " Tues 1st May 2018 10:26am" -->
+            
+            <p id="displayDateTime"></p>
+            
+            <!--  format for date  " Tues 1st May 2018 10:26am" -->
+            
+            <button id="nextClass" onclick="getToDirections"> 
+                Human Computer Interaction <br> 
+                Today at <br>
+                M 517 <br> 
+                in 30 Minutes <br> <br>
+                Click for directions
+                
+                <a href="directionspage.html/"></a>
+                
+                
+                
+<!--                <a id="myLink" title="Click to do something"
+ href="PleaseEnableJavascript.html" onclick="MyFunction();return false;">link text</a>-->
 
 
-        
-        
-        
-        
-        
-        
-         <button id="nextClass" onclick="getToDirections"> 
-             Human Computer Interaction <br> 
-                 Today at <br>
-                 M 517 <br> 
-                 in 30 Minutes <br> <br>
-                 Click for directions
-             
-         </button>
-          
+
+
+            </button>
+            
         </div>
         <div id="bottom-navbar">
             <button class="navButtonImg" id="home-button" onclick="goHome()">
                 Home
-<!--                <img class="navButtonImg" id="home-buttonImg" alt="Home button" src="Houseicon.png" >-->
+         
             </button>
             <button class="navButtonImg" id="QrCodePage-button" onclick="displayQrCodePage">QR Code</button>
             <button class="navButtonImg" id="profile-button" onclick="getProfile">Profile</button>
             
-            
-            
-            
-            <script src="clockinjavascript.js"> 
-
-            </script>
         </div>
+        
     </body>
+    
 </html>
