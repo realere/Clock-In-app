@@ -9,10 +9,7 @@ var date = Date();
  document.getElementById("displayDateTime").innerHTML = date;
 
 
-//fuction getDate(){
-//    date = Date();
-//    document.getElementById("displayDateTime").innerHTML = date;
-//}
+
 
 
 function init (){
