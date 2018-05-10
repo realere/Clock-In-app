@@ -12,6 +12,8 @@ var student;
 
 student = {
     name: "Mark",
+    username: "mark1",
+    password: "password",
     student_id: "S12345",
     lecture_date: "today",
     course: "Human Computer Interaction",
@@ -28,9 +30,7 @@ student = {
 //                    M 517 <br> 
 //                    in 30 Minutes 
 
-function description(){
-    
-};
+
 
 document.getElementById("nextClass").innerHTML = 
         
@@ -47,12 +47,12 @@ document.getElementById("nextClass").innerHTML =
 //    
 //    
 //    
-//     for(i = 0; i < objStudent.length; i++)
+//     for(i = 0; i < student.length; i++)
 //        
          
         
 //     {
-//        if(username === objStudent.username && password === objStudent.password) {
+//        if(username === student.username && password === student.password) {
 //            console.log(username);
 //        } 
 //    }
