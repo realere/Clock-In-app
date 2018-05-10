@@ -76,14 +76,28 @@ button{
     margin: 0px 15px;
     font-size: large;
 }
+
+
+
 #gotIt{
     box-shadow: darkgray 5px 3px 5px;
 }
 
+#sign_in-button{
+    float: none;
+}
+
+
 /*button style ends here*/
 
 
-/*index page style starts here */
+
+
+/*link style starts here*/
+a
+{
+    text-decoration: none;
+}/*index page style starts here */
 
 #QRCodeImg{
     position: relative;
@@ -120,15 +134,23 @@ button{
 
 #nextClass{
     position: relative;
-    width: 90%;
-    /* margin: 10px auto;*/ 
+    width: 90%; 
     padding: 10px 0px;
-    margin: 0px 15px; 
+    margin: 0px 15px;
+    text-decoration: none;
     
 }
-/*Index page style ends here*/
 
-
+/*#description{
+    background-color: blue;
+    position: relative;
+    width: 90%;
+     margin: 10px auto; 
+    padding: 10px 0px;
+    margin: 0px 15px;
+    text-decoration: none;
+    
+}*/
 
 
 

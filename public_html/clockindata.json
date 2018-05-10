@@ -5,6 +5,7 @@
     "lastname": "samuel",
     "student_id": "asamue12345",
     "department": "Software Development",
+    "Courses": {"Software Development" },
     "program": "masters",
     "year": "3",
     "session": "2017/2018",
