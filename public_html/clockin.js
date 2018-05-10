@@ -33,8 +33,11 @@ function description(){
 };
 
 document.getElementById("nextClass").innerHTML = 
-        student.course + "  " + student.lecture_date 
-         + " at " + student.lecture_address+ " in " + student.lecture_time;
+        
+        
+        
+        student.course +  "<br> " + student.lecture_date 
+         + " at " + "<br> " +student.lecture_address+ "<br> "+ " in " + student.lecture_time;
 
 
 
