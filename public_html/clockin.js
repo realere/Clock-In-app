@@ -5,7 +5,7 @@
  */
 
 var date = Date();
- document.getElementById("displayDateTime").innerHTML = date;
+document.getElementById("displayDateTime").innerHTML = date;
 
 
 var student;
@@ -30,37 +30,19 @@ student = {
 //                    M 517 <br> 
 //                    in 30 Minutes 
 
-
+function students_details() {
+    
+    //    student.course +  "<br>"+ student.lecture_date 
+    //         + " at " + "<br> " +student.lecture_address+ "<br>" 
+    //         + " in " + student.lecture_time;
+    
+}
 
 document.getElementById("nextClass").innerHTML = 
         
-        
-        
-        student.course +  "<br> " + student.lecture_date 
-         + " at " + "<br> " +student.lecture_address+ "<br> "+ " in " + student.lecture_time;
-
-
-
-//function getInfo() {
-//    var username = document.getElementById("username").value;
-//    var password = document.getElementById("password").value;
-//    
-//    
-//    
-//     for(i = 0; i < student.length; i++)
-//        
-         
-        
-//     {
-//        if(username === student.username && password === student.password) {
-//            console.log(username);
-//        } 
-//    }
-//}
-
-
-
-
+        student.course +  "<br>"+ student.lecture_date 
+        + " at " + "<br> " +student.lecture_address+ "<br>" 
+        + " in " + student.lecture_time;
 
 
 
@@ -84,3 +66,28 @@ function  onDeviceReady(){
     }
 }
 
+
+//login page
+
+var attempt = 3; // Variable to count number of attempts.
+// Below function Executes on click of login button.
+function validate(){
+    var username = document.getElementById("username").value;
+    var password = document.getElementById("password").value;
+    if ( username === "Formget" && password === "formget#123"){
+        alert ("Login successfully");
+        window.location = "homepage.html"; // Redirecting to other page.
+        return false;
+    }
+    else{
+        attempt --;// Decrementing by one.
+        alert("You have left "+attempt+" attempt;");
+        // Disabling fields after 3 attempts.
+        if( attempt === 0){
+            document.getElementById("username").disabled = true;
+            document.getElementById("password").disabled = true;
+            document.getElementById("submit").disabled = true;
+            return false;
+        }
+    }
+}
