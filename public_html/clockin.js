@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 
+var attempt = 3;
 var date = Date();
 document.getElementById("displayDateTime").innerHTML = date;
 
@@ -25,18 +26,6 @@ student = {
 
 
 
-//Human Computer Interaction <br> 
-//                    Today at <br>
-//                    M 517 <br> 
-//                    in 30 Minutes 
-
-function students_details() {
-    
-    //    student.course +  "<br>"+ student.lecture_date 
-    //         + " at " + "<br> " +student.lecture_address+ "<br>" 
-    //         + " in " + student.lecture_time;
-    
-}
 
 document.getElementById("nextClass").innerHTML = 
         
@@ -69,7 +58,7 @@ function  onDeviceReady(){
 
 //login page
 
-var attempt = 3; // Variable to count number of attempts.
+ // Variable to count number of attempts.
 // Below function Executes on click of login button.
 function validate(){
     var username = document.getElementById("username").value;
@@ -91,3 +80,5 @@ function validate(){
         }
     }
 }
+
+
