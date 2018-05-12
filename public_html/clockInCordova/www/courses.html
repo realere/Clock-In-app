@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>ClockIn</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" rel="stylesheet" href="clockIn.css"/>
+        <script type="text/javascript" src="https://maps.googlepis.com/maps/api/js?key=AIzaSyDZopNkXSseDt8eqKR015D9q4BtzM5SjkA"></script>
+        <script type="text/javascript" src="clockin.js" defer >  </script>
+        <script type="text/javascript" src="cordova.js"></script>
+        
+    </head>
+    <body onload="init()">
+        <div id="top-navbar">
+            <button id="back-button" onclick="displayLastPage">Back</button>
+            Clock In
+            <button id="settings-button" onclick="getToSettings">Settings</button>
+        </div>
+        
+        <div id="container">  
+            <a href="index.html">
+                <button class="homepage-button"  id="viewNextClass-button"  onclick="viewnextclass"> 
+                    
+                    Human Computer Interaction 
+                    <br> 9:00 am 
+                    <br> Monday 16th January, 2014 
+                    <br>M517
+                    
+                </button>
+                
+            </a>
+            
+            <button class="homepage-button" id="ViewCourses-button" onclick="ViewCourses"> 
+                Networking <br> 
+                3:00 PM  <br>
+                Monday 16th January,2018 <br>
+                M220
+                
+            </button>
+            
+            
+            
+            <button class="homepage-button" id="viewTimetable-button" onclick="viewTimetable"> 
+                
+                Software Development <br>
+                9:00 am <br>
+                Wednesday 19th January, 2018 <br>
+                M212
+                
+            </button>
+            
+        </div>
+        
+        <div id="bottom-navbar">
+            
+            <a href="homepage.html">
+                <button id="home-button">
+                    Home
+                </button>
+            </a>
+            
+            <a href="index.html">
+                <button id="QrCodePage-button">
+                    QR Code
+                </button>
+            </a>
+            
+            <a href="directionspage.html">
+                <button id="profile-button">
+                    Profile
+                </button>
+            </a>
+        </div>
+        
+        
+    </body>
+</html>
