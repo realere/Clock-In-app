@@ -33,4 +33,5 @@
     <preference name="Supress3DTouchGesture" value="true" />
     <preference name="InAppBrowserStorageEnabled" value="true" />
     <engine name="android" spec="~7.0.0" />
+    <engine name="ios" spec="~4.5.4" />
 </widget>
