@@ -35,7 +35,9 @@ student = {
 };
 
 
-
+new QRCode(document.getElementById('qrCode'),{
+ text: student, width:120, height:120   
+});
 
 document.getElementById("nextClass").innerHTML = 
         
@@ -104,15 +106,15 @@ function getDirection(){
 
 //google map 
 
-//function intiMap(){
-//    
-//   var options = {
-//       zoom:8,
-//       center:{lat:55.8642, lng:-4.2518}
-//   };
-//   
-//   var map = new google.maps.Map(document.getElementById("map"), options);
-//}
+function intiMap(){
+    
+   var options = {
+       zoom:8,
+       center:{lat:55.8642, lng:-4.2518}
+   };
+   
+   var map = new google.maps.Map(document.getElementById("map"), options);
+}
 
 
 

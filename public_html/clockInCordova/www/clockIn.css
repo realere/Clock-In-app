@@ -99,7 +99,7 @@ a
     text-decoration: none;
 }/*index page style starts here */
 
-#QRCodeImg{
+/*#QRCodeImg{
     position: relative;
     width: 200px;
     height: auto; 
@@ -109,7 +109,7 @@ a
     margin-bottom: 3px;
     padding: 10px 10px;
     
-}
+}*/
 
 #displayDateTime{
     position: relative;
@@ -120,7 +120,7 @@ a
     padding: 5px;
 }
 
-/*#qrCode{
+#qrCode{
     
    
     position: relative;
@@ -130,7 +130,7 @@ a
     margin: 15px auto;
     padding: 0px 10px;
     
-}*/
+}
 
 #nextClass{
     position: relative;

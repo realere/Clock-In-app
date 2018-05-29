@@ -6,7 +6,7 @@
     density="560dpi"
     format="10"
     plugin-version="3.1.2"
-    timestamp="1527228805122"
+    timestamp="1527243988874"
     token="3414318185334930173"
     verifier="FULL_BUILD_REQUESTED" >
 
@@ -65,7 +65,7 @@
 
     <build
         build-mode="FULL"
-        timestamp="1527228805122"
+        timestamp="1527243988874"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/alaeresamuel/NetBeansProjects/ClockIn/public_html/clockInCordova/platforms/android/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
